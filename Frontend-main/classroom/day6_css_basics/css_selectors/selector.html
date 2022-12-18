@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector in CSS</title>
+    <link rel="stylesheet" href="./selector.css">
+</head>
+<body>
+    <h1>Selectors helps us to target/query a specific element/tag from the DOM(Document Object Model)</h1>
+    <h1>Types of CSS Selectors</h1>
+    <ul>
+        <li>ID selector - Give any element/tag and id and use this id in css file with # to target element</li>
+        <li>Class Selector - Give any Element/tag and use this class in css file with . to target element</li>
+        <li>Element/Tag Name Selector - Directly use the element/tag - name in css file and start styling</li>
+    </ul>
+    <hr>
+    <div>
+        <h2>ID Selector Example</h2>
+        <p id="example-one-id"> I am a P tag with id="example-one-id", I can be accessed in CSS file like this #example-one-id</p>
+        <p id="example-one-id"> I am a P tag with id="example-one-id", I can be accessed in CSS file like this #example-one-id</p>
+    </div>
+    <div>
+        <h2>Class Seector Example</h2>
+        <p class="example-one-class"> I am a P tag with class="example-one-class", I can be accessed in CSS file like this .example-one-class</p>
+        <p class="example-one-class"> I am a P tag with class="example-one-class", I can be accessed in CSS file like this .example-one-class</p>
+        <div class="example-one-class"> Hello World </div>
+        <button class="example-one-class"> Click</button>
+    </div>
+    <div id="element-selector-container" >
+        <h2>Element or Tag name Selector</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <div>Lorem ipsum dolor sit amet.</div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quos!</p>
+        <button class="btn-styling example-one-class">Hello</button>
+        <button class="btn-styling">Hello</button>
+        <button class="btn-styling">Hello</button>
+    </div>
+    <button class="btn-styling">Hello</button>
+    <button class="btn-fancy">I am a Fancy Button</button>
+    
+</body>
+</html>

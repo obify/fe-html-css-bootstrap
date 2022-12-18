@@ -1,0 +1,27 @@
+@import url(./global-vars.css);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.banner{
+    position: relative;
+    color: red;
+}
+.banner h1, .banner h3{
+    position: absolute;
+    color: yellow;
+    top: 40%;
+    left: 45%;
+}
+.banner h3{
+    top: 50%;
+    left: 44%;
+    color: var(--primary-color);
+}
+.banner-img{
+    background: url(../../img1.jpg) no repeat;
+    height: 400px;
+    width: 100%;
+    border: 2px solid red;
+}

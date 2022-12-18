@@ -1,0 +1,32 @@
+/*Example of ID selector in CSS*/
+#example-one-id{
+     color: rgb(50, 169, 205);
+     font-size: 30px;
+}
+
+/*Example of Class selector in CSS*/
+.example-one-class{
+    color: rgb(50, 205, 73);
+    font-size: 30px;
+}
+
+/*Example of Element or Tag name selector in CSS*/
+#element-selector-container p{
+    background-color: #f3fad7;
+    font-size: 30px;
+}
+.btn-styling{
+    background-color: aquamarine;
+}
+#element-selector-container button{
+    color: red;
+}
+
+.btn-fancy{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #90e9cb;
+    color: #b9ae9c;
+    border-radius: 10px;
+    border: 2px solid orange;
+}

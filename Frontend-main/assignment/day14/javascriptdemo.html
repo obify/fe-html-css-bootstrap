@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function myFunction() {
+            
+                if(document.getElementById('demo').style.display=='block'){
+                   
+                    document.getElementById('demo').style.display='none';
+                }else{
+                    document.getElementById('demo').style.display='block';
+                    document.getElementById("demo").innerHTML = "Hello";
+                }
+                
+            }
+        </script>
+    </head>
+
+<body>
+
+    <h1>JavaScript</h1>
+    
+    <button type="button" onclick="myFunction()">
+        Turn On</button>
+
+    <button type="button" onclick="myFunction()">Turn Off</button>
+
+    <div id="demo" style="color: red; font-size: 250px; background-color: black;"></div>
+
+</body>
+
+</html>

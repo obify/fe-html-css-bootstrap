@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML table</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        tr:hover {
+            background-color: rgb(203, 188, 188);
+            font-weight: bold;
+        }
+
+        .container2 {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        .row {
+            width: 30%;
+            padding: 0px 80px 0px 10px;
+            margin: 5px 10px 0px 450px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+        }
+
+        .rounded-circle {
+            border-radius: 50%;
+        }
+
+        .img-thumbnail {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            width: 150px;
+        }
+
+        .img-thumbnail:hover {
+            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <h2> HTML table</h2>
+        <table style="width:100%">
+            <tr style="background-color:rgb(230, 97, 97);">
+                <th>Student Name</th>
+                <th>Age</th>
+                <th>Course</th>
+                <th>Contact No.</th>
+            </tr>
+            <tr>
+                <td>Mahesh</td>
+                <td>24</td>
+                <td>Java</td>
+                <td>7362871918</td>
+            </tr>
+            <tr>
+                <td>Anil</td>
+                <td>25</td>
+                <td>Python</td>
+                <td>1234567890</td>
+            </tr>
+            <tr>
+                <td>Ramesh</td>
+                <td>26</td>
+                <td>HTML</td>
+                <td>0987654321</td>
+            </tr>
+            <tr>
+                <td>pavan</td>
+                <td>23</td>
+                <td>Java</td>
+                <td>0987654321</td>
+            </tr>
+            <tr>
+                <td>vijay</td>
+                <td>27</td>
+                <td>Python</td>
+                <td>1234567890</td>
+            </tr>
+            <tr>
+                <td>Manoj</td>
+                <td>26</td>
+                <td>HTML</td>
+                <td>0987654321</td>
+            </tr>
+            <tr>
+                <td>Madhu</td>
+                <td>22</td>
+                <td>Java</td>
+                <td>1234567890</td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <div class="container2">
+        <div class="row">
+            <div class="col-sm-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+            </div>
+            <div class="col-sm-8">
+                <img class="img-thumbnail"
+                    src="https://media.istockphoto.com/id/1352918375/photo/saguaro-sunset-silhouette.jpg?b=1&s=170667a&w=0&k=20&c=vGVjEiI6i53vvGDvq1EnMjKSGjiDHKtvX0vOta8Anmw="
+                    height="150px" width="180px" alt="image">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 ">
+                <img class="rounded-circle"
+                    src="https://media.istockphoto.com/id/1297349747/photo/hot-air-balloons-flying-over-the-botan-canyon-in-turkey.jpg?b=1&s=170667a&w=0&k=20&c=1oQ2rt0FfJFhOcOgJ8hoaXA5gY4225BA4RdOP1RRBz4="
+                    height="150px" width="180px" alt="">
+            </div>
+            <div class="col-sm-4 ">
+                Sed ut perspiciatis unde omnis iste natus
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-sm-4 ">
+                Sed ut perspiciatis unde omnis iste natus
+            </div>
+            <div class="col-sm-8">
+                <img class="rounded"
+                    src="https://images.unsplash.com/photo-1665509867116-917568864ca9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60"
+                    height="150px" width="180px" alt="">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div>
+        
+    
+    </div>
+</body>
+
+</html>

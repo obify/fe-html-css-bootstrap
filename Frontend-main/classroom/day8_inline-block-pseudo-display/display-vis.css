@@ -1,0 +1,23 @@
+.box-container{
+    border: 2px solid orangered;
+}
+.box{
+    margin-left: 20px;
+    height: 200px ;
+    text-align: center;
+    width: 200px;
+    display: inline-block;
+    border: 1px solid rgb(5, 55, 75);
+}
+.box:hover:nth-child(3){
+    display: none;
+}
+.box:hover:nth-child(4){
+    visibility: hidden;
+}
+.box:hover:nth-child(3){
+    display: none;/*hides and also do not take any space*/
+}
+.box:hover:nth-child(4){
+    visibility: hidden;/*hides but keep occupying space*/
+}

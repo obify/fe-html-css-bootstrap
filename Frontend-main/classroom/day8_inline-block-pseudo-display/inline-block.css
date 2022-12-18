@@ -1,0 +1,30 @@
+.one-text{
+    border: 2px solid green;
+}
+.two-text{
+    border: 2px solid red;
+}
+
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline;
+    padding: 10px;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navbar ul li a:hover{
+    background-color: aquamarine;
+    padding: 12px;
+    border-radius: 25px;
+}
+.navbar ul li:nth-child(2), .navbar ul li:nth-child(4){
+    border: 2px solid blue;
+}.navbar ul li:last-child{
+    text-decoration: underline;
+}

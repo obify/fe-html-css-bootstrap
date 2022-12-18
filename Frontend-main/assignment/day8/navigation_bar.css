@@ -1,0 +1,41 @@
+.marquee{
+    color: rgb(177, 29, 29);
+    font-style: bold;
+    font-size: large;
+    display: block;
+    border: 6px solid rgb(123, 123, 250);
+    border-radius: 10px;
+    background-color:rgb(28, 248, 57);
+    border-width: auto;
+    height: fit-content;
+}
+
+.marquee a{
+    text-decoration: none;
+    color: rgb(20, 16, 241);
+}
+
+.marquee a:hover{
+    background-color: #93f5f2;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+.float{
+float: right;
+}
+
+.mail{
+    box-sizing: 10px;
+    border-color: black;
+}
+
+.button {
+    border: 2px solid rgb(240, 11, 11);
+    text-align: center;
+    font-style: bold;
+    background-color: rgba(243, 216, 13, 0.76);
+    color:rgb(2, 2, 21);
+    border-radius: 20pxpx;
+    float: right;
+}

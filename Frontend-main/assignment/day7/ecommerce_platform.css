@@ -1,0 +1,194 @@
+.main{
+    background-color: white;
+    border: 2px solid brown;
+    height: auto;
+    width: auto;
+}
+
+.main-title{
+    margin: auto;
+    color: white;
+    font-style: bold;
+    font-size: xx-large;
+    text-decoration: none;
+    display: inline;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    background-color: royalblue
+
+}
+.marquee{
+    margin: auto;
+    color: white;
+    font-style: bold;
+    font-size: x-large;
+    display: block;
+    border: 2px solid rgb(123, 155, 250);
+    border-radius: 10px;
+    background-color:royalblue;
+    border-width: auto;
+    height: fit-content;
+}
+.scroll{
+    font-size: x-large;
+    color: black;
+    text-align: center;
+    background-color: #f7e38e;
+}
+.marquee a{
+    text-decoration: none;
+    color: white;
+}
+.marquee a:hover{
+    background-color: #141515;
+    padding: 1px;
+    border-radius: 10px;
+}
+.catagories{
+    border: 2px solid rgb(204, 48, 17); 
+    height: auto;
+    width: auto;
+}
+.catagories h1 {
+    text-align: center;
+    font-style: italic;
+    color: black;
+    font-size: xx-large;
+}
+.catagories img{
+    border: 3px solid rgb(244, 18, 191);
+    padding: 10px;
+    width: 370px;
+    margin: auto;
+}
+.offers{
+    border: 2px solid rgb(204, 48, 17); 
+    height: auto;
+    width: auto;
+}
+.offers img {
+    border: 3px solid rgb(244, 18, 191);
+    padding: 5px;
+    padding-right: 5px; 
+}
+
+.offers h1 {
+    text-align: center;
+    font-style: italic;
+    color:black;
+    font-size: xx-large;
+}
+.gallery {
+    border: 2px solid rgb(204, 48, 17); 
+    height: auto;
+    width: auto; 
+}
+.gallery h1 {
+    text-align: center;
+    font-style: italic;
+    color: black;
+    font-size: xx-large;
+}
+.gallery iframe {
+    border: 3px solid rgb(244, 18, 191);
+    padding: 5px;
+    padding-right: 5px;  
+}
+.letter h1 {
+    text-align: left;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-size: xx-large; 
+}
+.letter form input{
+    border: 2px solid rgb(231, 19, 19);
+    text-align: center;
+    font-style: italic;
+}
+.letter form button{
+    border: 2px solid black;
+    text-align: center;
+    font-style: italic;
+    background-color: rgba(227, 109, 13, 0.76);
+    color: white;
+
+}
+.podcast h2 p {
+    text-align: left;
+    font-style: italic;
+    color: black;
+    font-size: xx-large; 
+}
+.podcast audio {
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 20px;
+}
+.contact h1 {
+    text-align: left;
+    font-style: italic;
+    color: black;
+    font-size: xx-large; 
+}
+.contact div label{
+    text-align: left;
+    font-style: bold;
+    color: black;
+    font-size: large;
+}
+.mail{
+    text-align: left;
+    font-style: bold;
+    color:black;
+    font-size: large;  
+}
+.main input{
+    border: 2px solid black;
+    text-align: center;
+    font-style: italic;
+   
+}
+.button {
+    border: 2px solid black;
+    text-align: center;
+    font-style: italic;
+    background-color: rgba(13, 91, 227, 0.76);
+    color: white;
+}
+.rights{
+    color: black;
+}
+.policy a {
+    margin: auto;
+    color: white;
+    font-style: bold;
+    font-size: medium;
+    text-decoration: none;
+    display: inline;
+    border: 2px solid royalblue;
+    border-radius: 5px;
+    background-color: rgba(13, 91, 227, 0.76);
+}
+.scroll-top {
+color: white;
+height: 40px;
+width: 20px;
+font-size: 180px;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+text-align: center;
+cursor: pointer;
+border: 1px rgba(13, 91, 227, 0.76);
+border-radius: 10px;
+text-decoration: none;
+position: fixed;
+bottom: 30px;
+right: 20px;
+
+}
+
+
+
+
+
+

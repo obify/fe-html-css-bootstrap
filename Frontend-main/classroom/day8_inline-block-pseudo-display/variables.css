@@ -1,0 +1,17 @@
+@import url(./global-vars.css);
+.container{
+    background-color: rgb(88, 192, 174);
+}
+.item{
+    background-color: antiquewhite;
+    color: blue;
+    font-size: 30px;
+}
+.container-2{
+    background-color: rgb(62, 187, 166);
+}
+.item-2{
+    background-color: antiquewhite;
+    color: rgb(0, 255, 128) ;
+    font-size: 30px;
+}

@@ -1,0 +1,52 @@
+.box-container{
+    width: 800px ;
+    height:750px ;
+    border:2px solid red ;
+    background-color: rgb(156, 186, 176) ;
+    margin: auto auto;
+    text-align: center;
+    border-radius: 20px;
+}
+.input{
+    border-radius: 20px;
+}
+.f_name{
+    background-color: rgb(0, 255, 47);
+    border: 2px solid;
+}
+.l_name{
+    background-color: rgb(0, 255, 47);
+    border: 2px solid;
+}
+.email{
+    background-color: rgb(0, 255, 47);
+    border: 2px solid;
+}
+.mobile_number{
+    background-color: rgb(0, 255, 47);
+    border: 2px solid;
+}
+.age{
+    background-color: rgb(0, 255, 47);
+    border: 2px solid;
+}
+.password{
+    background-color: rgb(0, 255, 47);
+    border: 2px solid;
+}
+.submit{
+    background-color: rgb(47, 255, 102);
+    font-style: oblique;
+    font-weight: bold;
+    font-family: inherit;
+    color: red;
+    text-align: center;
+    border-radius: 5px;
+}
+.reset{
+    background-color: rgb(255, 172, 47);
+    font-style: italic;
+    font-family: inherit;
+    color: red;
+    border-radius: 5px;
+}

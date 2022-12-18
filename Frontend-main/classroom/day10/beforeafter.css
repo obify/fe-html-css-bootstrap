@@ -1,0 +1,48 @@
+body {
+    background-color: grey;
+    color: rgb(227, 246, 59);
+    margin: 0;
+    padding: 0;
+}
+
+.header::before {
+
+    background: url('https://images.unsplash.com/photo-1559286024-87b48d2fedc6?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2NzY0NTIxMA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /*push the image to the background,*/
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 2px 220px;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.navigation-items {
+    display: flex;
+    font-size: 18px;
+}
+
+.navigation-items li {
+    list-style: none;
+    padding: 30px 20px;
+}

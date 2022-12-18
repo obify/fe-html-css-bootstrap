@@ -1,0 +1,43 @@
+.item {
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    font-size: 65px;
+    display: none;
+}
+
+/* Always write media queries at end of CSS file */
+/* Start 0px upto 320px */
+@media only screen and (max-width: 320px) {
+    .item {
+        background-color: rgb(10, 72, 131);
+        color: aliceblue;
+    }
+
+    #item-1 {
+        display: block;
+    }
+}
+
+/*300px to 500px width apply below rules*/
+@media only screen and (min-width:300px) and (max-width: 500px){
+    #item-2 {
+        display: block;
+        background-color: rgb(132, 165, 42);
+    }
+}
+/*500px to 800px apply below rules*/
+@media only screen and (min-width:500px) and (max-width: 800px) {
+    #item-3{
+        display: block;
+        background-color: rgb(42, 147, 165);
+    }
+}
+/*800px and above width apply below rules*/
+@media only screen and (min-width: 800px) {
+    #item-4{
+        display: block;
+        background-color: rgb(75, 42, 165);
+    }
+}
+

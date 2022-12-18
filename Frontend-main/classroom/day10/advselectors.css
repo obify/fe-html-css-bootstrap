@@ -1,0 +1,27 @@
+h2{
+    background-color: chocolate;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+/*div li p {
+    background-color: blue;
+    color: white;
+}*/
+/*div p {
+    background-color: blue;
+    color: white;
+}*/
+/* below is directly targetting onloy those p tag which are direct child of div */
+
+div > p {
+    background-color: blue;
+    color: white;
+}
+/* below is targetting only those p tag which are direct siblongs of div or p is right after div */
+
+/*div + p{
+    background-color: yellow;
+}*/
+
+ 

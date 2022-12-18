@@ -1,0 +1,353 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.banner-img {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    background: no-repeat url("../../img1.jpg");
+    background-size: cover;
+}
+
+.banner-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    animation-name: banner-title-animation;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+.navigation {
+    color: white;
+    font-style: bold;
+    font-size: x-large;
+    display: block;
+    border: 2px solid rgb(123, 155, 250);
+    background-color: rgb(68, 225, 65);
+    border-width: auto;
+    height: 5 0px;
+}
+
+.navigation a:hover {
+    background-color: brown;
+    border-radius: 5px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation img {
+    height: 50px;
+    width: 50px;
+}
+
+.image {
+    height: 500px;
+    width: 100%;
+    margin-top: auto;
+    position: relative;
+    text-align: center;
+}
+
+.text {
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: bold;
+    color: rgb(13, 18, 19);
+    background-color: burlywood;
+
+}
+
+.text {
+    position: absolute;
+    animation-name: text;
+    animation-timing-function: 10sec right;
+}
+
+@keyframes text {
+    from {
+        width: 600px;
+    }
+
+    to {
+        width: 600px;
+    }
+}
+
+
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+
+.policy a {
+    margin: auto;
+    color: white;
+    font-style: bold;
+    font-size: large;
+    text-decoration: none;
+    display: inline;
+    border: 2px solid royalblue;
+    border-radius: 5px;
+    background-color: rgba(227, 84, 13, 0.76);
+    text-align: center;
+
+}
+
+.rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-size: 20px;
+}
+
+.scroll-top {
+    color: white;
+    height: 40px;
+    width: 20px;
+    font-size: 180px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: 1px rgba(227, 113, 13, 0.76);
+    border-radius: 10px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+}
+
+.flex-container {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-container img :hover {
+    background-color: brown;
+}
+
+.flex-item :hover {
+    background-color: aquamarine;
+}
+
+#item-1 {
+    border: 2px solid rgb(149, 231, 25);
+    background-color: rgb(237, 155, 33);
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px gainsboro
+}
+
+#item-2 {
+
+    border: 2px solid rgb(149, 231, 25);
+    background-color: rgb(237, 155, 33);
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px gainsboro
+}
+
+#item-3 {
+    border: 2px solid rgb(149, 231, 25);
+    background-color: rgb(237, 155, 33);
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px gainsboro
+}
+
+#item-4 {
+    border: 2px solid rgb(149, 231, 25);
+    background-color: rgb(237, 155, 33);
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px gainsboro
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-size: 30px;
+
+}
+
+.box-container {
+    width: 100%;
+    height: 330px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#box-1 {
+    border: 2px solid rgb(149, 231, 25);
+    background-color: blanchedalmond;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px gainsboro;
+
+
+}
+
+#box-2 {
+
+    border: 2px solid rgb(149, 231, 25);
+    background-color: blanchedalmond;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px gainsboro;
+}
+
+#box-3 {
+    border: 2px solid rgb(149, 231, 25);
+    background-color: blanchedalmond;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px gainsboro;
+}
+
+#box-4 {
+    border: 2px solid rgb(149, 231, 25);
+    background-color: blanchedalmond;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px gainsboro;
+}
+
+#box-5 {
+    border: 2px solid rgb(149, 231, 25);
+    background-color: blanchedalmond;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px gainsboro;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-size: 30px;
+
+
+}
+
+.flex-item-1 img {
+    border-radius: 50%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.name {
+    font-family: normal;
+    text-align: center;
+    color: rgb(222, 21, 21);
+    padding-top: 20px;
+    font-size: bold;
+    background-color: rgb(193, 154, 154);
+
+}
+
+
+
+.submit {
+    background-color: rgb(28, 235, 139);
+    font-style: bold;
+    font-display: initial;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    font-size: larger;
+    color: white;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-size: 30px;
+
+}
+
+.width {
+    width: 400px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.text {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: text;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes banner-title-animation {
+    0% {
+        left: 0px;
+    }
+
+    100% {
+        left: 1200px;
+    }
+}

@@ -1,0 +1,6 @@
+:root{/*declare global variables here*/
+    --item-color: rgb(196, 196, 21);
+    --primary-color: teal;
+    --secondary-color: rgb(240, 33, 26);
+    --font-size: 26px;
+}

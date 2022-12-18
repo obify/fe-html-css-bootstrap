@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registrtation Form</title>
+</head>
+
+<body>
+    <section>
+        <h2>Student Registartion Form</h2>
+        <form action="URL to your backend server to which you want to send data">
+            <div>
+                <label for="f_name">First name</label>
+                <input type="text" name="f_name" id="f_name">
+            </div><br>
+            <div>
+                <label for="l_name">Last name</label>
+                <input type="text" name="l_name" id="l_name">
+            </div><br>
+            <div>
+                <label for="email">Enter email</label>
+                <input type="text" name="email" id="email">
+            </div><br>
+            <div>
+                <label for="phone">Enter your phone number</label>
+                <input type="text" name="number" id="number">
+            </div><br>
+            <div>
+                <label for="age">Student Age</label>
+                <input type="text" name="age" id="age">
+            </div><br>
+            <div>
+                <label for="skill">HTML skills</label>
+                <input type="range" name="skills" id="skills">
+            </div><br>
+            <div>
+                Gender <input type="radio" /><br><br>
+                Male <input type="radio" value="M" name="genderoption" />
+                Female <input type="radio" value="F" name="genderoption" />
+                Others <input type="radio" name="O" id="genderoption">
+            </div><br>
+            <div>
+                Are you 18 years old? : Yes <input type="checkbox" name="age">
+                No <input type="checkbox" name="age">
+            </div><br>
+            <div>
+                <label for="date">Date of Birth</label>
+                <input type="datetime-local" name="date" id="date">
+            </div><br>
+            <div>
+                <label for="Password">Enter your Password</label>
+                <input type="password" name="password" id="password">
+            </div><br>
+            <div>
+                <label for="file">upload your file</label>
+                <input type="file" name="image upload" id="file">
+            </div><br>
+            <div>
+                <label for="query">Education description</label>
+                <textarea name="query" id="query" cols="30" rows="5"></textarea>
+            </div><br>
+            <div>
+                <label for="qualification">Qualification</label>
+                <select id="qualification" name="qualification">
+                    <option value="Post Graduate">Post Graduate</option>
+                    <option value="Graduate">Graduate</option>
+                    <option value="Intermediate">Intermediate</option>
+                </select>
+            </div><br>
+            <div>
+                <input type="Submit" value="submit " id="submit_button">
+                <input type="Reset" value="Reset" id="Reset_button">
+            </div>
+        </form>
+
+    </section>
+
+</body>
+
+</html>

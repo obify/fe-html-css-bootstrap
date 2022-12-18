@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: indigo;
+    color: ivory;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: lawngreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: all 4s ease-in-out;
+}
+.box:hover{
+    transform: skew(45deg);
+    /*transform: rotate(36deg);
+    transform: skew(45deg);
+    transform: scale(2);
+    transform: translatex(100px);
+    transform: translatey(100px);
+    transform: translatez(100px);
+    transform: translate(100px, 100px);*/
+
+}
